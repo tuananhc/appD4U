@@ -19,7 +19,7 @@ export default function DrawerContent(props) {
                 <View>
                     <View style={styles.userInfo}>
                         <Avatar.Image 
-                            source={require('./resources/UserDrawer/Group6516.png')}
+                            source={require('../resources/UserDrawer/Group6516.png')}
                             size={50}
                         />
                         <View style={{paddingLeft: 20}}>
@@ -34,7 +34,7 @@ export default function DrawerContent(props) {
                     <DrawerItem
                         icon={({color, size}) => (
                             <Image 
-                                source={require('./resources/UserDrawer/Group6550.png')} 
+                                source={require('../resources/UserDrawer/Group6550.png')} 
                             />
                         )}
                         label='Trang chủ'
@@ -43,7 +43,7 @@ export default function DrawerContent(props) {
                     <DrawerItem
                         icon={({color, size}) => (
                             <Image 
-                                source={require('./resources/UserDrawer/Group6551.png')} 
+                                source={require('../resources/UserDrawer/Group6551.png')} 
                             />
                         )}
                         label='Thông tin chung'
@@ -52,7 +52,7 @@ export default function DrawerContent(props) {
                     <DrawerItem
                         icon={({color, size}) => (
                             <Image 
-                                source={require('./resources/UserDrawer/Group6552.png')} 
+                                source={require('../resources/UserDrawer/Group6552.png')} 
                             />
                         )}
                         label='Danh sách thủ tục hành chính'
@@ -61,7 +61,7 @@ export default function DrawerContent(props) {
                     <DrawerItem
                         icon={({color, size}) => (
                             <Image 
-                                source={require('./resources/UserDrawer/Group6553.png')} 
+                                source={require('../resources/UserDrawer/Group6553.png')} 
                             />
                         )}
                         label='Tra cứu hồ sơ'
@@ -70,7 +70,7 @@ export default function DrawerContent(props) {
                     <DrawerItem
                         icon={({color, size}) => (
                             <Image 
-                                source={require('./resources/UserDrawer/Group6554.png')} 
+                                source={require('../resources/UserDrawer/Group6554.png')} 
                             />
                         )}
                         label='Quản lý hồ sơ'
@@ -83,7 +83,7 @@ export default function DrawerContent(props) {
                     <DrawerItem
                         icon={({color, size}) => (
                             <Image 
-                                source={require('./resources/UserDrawer/Group6555.png')} 
+                                source={require('../resources/UserDrawer/Group6555.png')} 
                             />                      
                         )}
                         label='Hướng dẫn & hỗ trợ'
@@ -92,7 +92,7 @@ export default function DrawerContent(props) {
                     <DrawerItem
                         icon={({color, size}) => (
                             <Image 
-                                source={require('./resources/UserDrawer/Group6556.png')} 
+                                source={require('../resources/UserDrawer/Group6556.png')} 
                             />
                         )}
                         label='Thông tin đăng ký'
@@ -101,7 +101,7 @@ export default function DrawerContent(props) {
                     <DrawerItem
                         icon={({color, size}) => (
                             <Image 
-                                source={require('./resources/UserDrawer/Group6557.png')} 
+                                source={require('../resources/UserDrawer/Group6557.png')} 
                             />
                         )}
                         label='Thiết lập ứng dụng'
@@ -110,7 +110,7 @@ export default function DrawerContent(props) {
                     <DrawerItem
                         icon={({color, size}) => (
                             <Image 
-                                source={require('./resources/UserDrawer/Group6559.png')} 
+                                source={require('../resources/UserDrawer/Group6559.png')} 
                             />
                         )}
                         label='Đăng nhập'
@@ -119,7 +119,7 @@ export default function DrawerContent(props) {
                     <DrawerItem
                         icon={({color, size}) => (
                             <Image 
-                                source={require('./resources/UserDrawer/Group6560.png')} 
+                                source={require('../resources/UserDrawer/Group6560.png')} 
                             />
                         )}
                         label='Đăng ký'

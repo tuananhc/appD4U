@@ -1,14 +1,7 @@
 import React from 'react';
-import { View, Text, StyleSheet, Image, TouchableOpacity, SafeAreaView } from 'react-native';
-import { NavigationContainer } from '@react-navigation/native';
+import { View, Text, StyleSheet, Image, TouchableOpacity } from 'react-native';
 
 const HomeScreen = ({navigation}) => {
-
-    navigationOptions = {
-        drawerIcon: () => (
-            <Image source={require('./resources/Icons/svg2.png')}/>
-        )
-    }
     return (
         <View style={{ flex: 1 }}>
             <View style={{
@@ -20,10 +13,10 @@ const HomeScreen = ({navigation}) => {
                 }}> 
                 <View style={styles.container}>
                     <TouchableOpacity style={styles.navigateButton} onPress={() => navigation.toggleDrawer()}>
-                        <Image source={require("./resources/Icons/svg2.png")}/>
+                        <Image source={require("../resources/Icons/svg2.png")}/>
                     </TouchableOpacity>
                     <View style={{alignItems: 'center'}}>
-                        <Image source={require("./resources/Icons/logo_app.png")} style={styles.logo}></Image>
+                        <Image source={require("../resources/Icons/logo_app.png")} style={styles.logo}></Image>
                     </View>
                     <View style={{alignItems: 'center'}}>
                         <Text style={styles.title}>CỔNG DỊCH VỤ CÔNG BỘ Y TẾ</Text>
@@ -34,18 +27,18 @@ const HomeScreen = ({navigation}) => {
                 <View style={styles.navigation}>
                     <View style={{flex: 0.5}}>
                         <TouchableOpacity style={{flex: 0.25, paddingBottom: 5, paddingRight: 5}}>
-                        <View style={styles.box}>
-                            <View style={styles.icon}>
-                            <Image source={require('./resources/Homepage/svg54.png')} />
+                            <View style={styles.box}>
+                                <View style={styles.icon}>
+                                    <Image source={require('../resources/Homepage/svg54.png')} />
+                                </View>
+                                <Text style={{color: '#002581', flex: 0.5}}>Thông tin chung</Text>
                             </View>
-                            <Text style={{color: '#002581', flex: 0.5}}>Thông tin chung</Text>
-                        </View>
                         </TouchableOpacity>
 
                         <TouchableOpacity style={{flex: 0.25, paddingBottom: 5, paddingRight: 5, paddingTop: 5}}>
                         <View style={styles.box}>
                             <View style={styles.icon}>
-                            <Image source={require('./resources/Homepage/svg27.png')}/>
+                            <Image source={require('../resources/Homepage/svg27.png')}/>
                             </View>
                             <Text style={{color: '#F6A90F', flex: 0.5}}>Tra cứu hồ sơ</Text>
                         </View>
@@ -54,7 +47,7 @@ const HomeScreen = ({navigation}) => {
                         <TouchableOpacity style={{flex: 0.25, paddingBottom: 5, paddingRight: 5, paddingTop: 5}}>
                         <View style={styles.box}>
                             <View style={styles.icon}>
-                            <Image source={require('./resources/Homepage/Path8249.png')} />
+                            <Image source={require('../resources/Homepage/Path8249.png')} />
                             </View>
                             <Text style={{color: '#0083E5', flex: 0.5}}>Thanh toán phí, lệ phí</Text>
                         </View>
@@ -63,7 +56,7 @@ const HomeScreen = ({navigation}) => {
                         <TouchableOpacity style={{flex: 0.25, paddingRight: 5, paddingTop: 5}}>
                         <View style={styles.box}>
                             <View style={styles.icon}>
-                            <Image source={require('./resources/Homepage/svg53.png')} />
+                            <Image source={require('../resources/Homepage/svg53.png')} />
                             </View>
                             <Text style={{color: '#B24AB9', flex: 0.5}}>Hỏi đáp, góp ý</Text>
                         </View>
@@ -73,7 +66,7 @@ const HomeScreen = ({navigation}) => {
                         <TouchableOpacity style={{flex: 0.25, paddingBottom: 5, paddingLeft: 5}}>
                         <View style={styles.box}>
                             <View style={styles.icon}>
-                            <Image source={require('./resources/Homepage/Group5968.png')} />
+                            <Image source={require('../resources/Homepage/Group5968.png')} />
                             </View>
                             <Text style={{color: '#44A636', flex: 0.25}}>Danh mục</Text>
                             <Text style={{color: '#44A636', flex: 0.25}}>Thủ tục hành chính</Text>
@@ -83,7 +76,7 @@ const HomeScreen = ({navigation}) => {
                         <TouchableOpacity style={{flex: 0.25, paddingBottom: 5, paddingLeft: 5, paddingTop: 5}}>
                             <View style={styles.box}>
                                 <View style={styles.icon}>
-                                <Image source={require('./resources/Homepage/svg85.png')} />
+                                <Image source={require('../resources/Homepage/svg85.png')} />
                                 </View>
                                 <Text style={{color: '#E86657', flex: 0.5}}>Quản lý hồ sơ</Text>
                             </View>
@@ -92,7 +85,7 @@ const HomeScreen = ({navigation}) => {
                         <TouchableOpacity style={{flex: 0.25, paddingBottom: 5, paddingLeft: 5, paddingTop: 5}}>
                             <View style={styles.box}>
                                 <View style={styles.icon}>
-                                <Image source={require('./resources/Homepage/svg84.png')} />
+                                <Image source={require('../resources/Homepage/svg84.png')} />
                                 </View>
                                 <Text style={{color: '#E8577A', flex: 0.5}}>Báo cáo</Text>
                             </View>
@@ -101,7 +94,7 @@ const HomeScreen = ({navigation}) => {
                         <TouchableOpacity style={{flex: 0.25, paddingLeft: 5, paddingTop: 5}}>
                             <View style={styles.box}>
                                 <View style={styles.icon}>
-                                <Image source={require('./resources/Homepage/Group6353.png')} />
+                                <Image source={require('../resources/Homepage/Group6353.png')} />
                                 </View>
                                 <Text style={{color: '#11AAAF', flex: 0.5}}>Hướng dẫn & Hỗ Trợ</Text>
                             </View>
